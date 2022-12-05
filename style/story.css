@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #0e0e10;
+}
+
+.sto-title {
+  color: #ccc;
+  text-align: center;
+  padding-top: 100px;
+}
+
+div.scenario,
+div.question {
+  color: #ccc;
+  border: 3px solid pink;
+  border-radius: 15px;
+  padding: 16px;
+  font-weight: 400;
+  margin: 90px;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container form,
+.button-container form div {
+  display: inline;
+}
+.button-container button {
+  display: inline;
+  vertical-align: middle;
+}
+
+button {
+  text-decoration: none;
+  color: black;
+  width: 200px;
+  background: #95acf1;
+  position: relative;
+  margin: 100px;
+  bottom: 80px;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+button.choice {
+  text-decoration: none;
+  color: black;
+  width: 200px;
+  background: #95acf1;
+  position: relative;
+  margin: 100px;
+  bottom: 80px;
+  left: 36%;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+button.choice:active {
+  box-shadow: 0px 7px 0px 0px #bfcfff;
+}
+
+button.button1:active {
+  box-shadow: 0px 7px 0px 0px #ccc !important;
+}
+
+button.button2:active {
+  box-shadow: 0px 7px 0px 0px #bfcfff;
+}
+
+.button1 {
+  background-color: #e94b3cff;
+}
+
+.button2 {
+  background-color: #e94b3cff;
+}
