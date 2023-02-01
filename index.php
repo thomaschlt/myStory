@@ -32,7 +32,7 @@ $stories = getDb()->query("select * from stories order by story_id");
             
             <div class="content">
                 <h2>Bienvenue sur aStory !</h2>
-                <p>Laissez-vous transporter dans des univers atypique grâce à nos histoires spécialement conçues pour maximiser votre expérience du récit.</p>
+                <p>Laissez-vous transporter dans des univers atypiques grâce à nos histoires spécialement conçues pour maximiser votre expérience du récit.</p>
                 <a href="#slider-container">Voir les histoires</a>
             </div>
         </div>
